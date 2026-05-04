@@ -8,9 +8,11 @@ env/
 # Jupyter
 .ipynb_checkpoints/
 
-# Data (raw files are large — don't push to GitHub)
-data/raw/
-data/processed/
+# Data — ignore contents but keep folder structure
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
 
 # Models
 models/
