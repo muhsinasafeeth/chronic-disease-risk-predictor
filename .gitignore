@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.env
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (raw files are large — don't push to GitHub)
+data/raw/
+data/processed/
+
+# Models
+models/
+
+# OS
+.DS_Store
+Thumbs.db 
