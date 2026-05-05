@@ -14,8 +14,8 @@ data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 
-# Models
-models/
+# Models — keep pkl files but ignore large files
+# models/*.pkl
 
 # OS
 .DS_Store
