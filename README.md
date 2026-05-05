@@ -93,35 +93,7 @@ valuable than overall accuracy.
 
 ---
 
-## 📁 Project Structure
-chronic-disease-risk-predictor/
-│
-├── data/
-│   ├── raw/          ← Raw CDC NHANES XPT files (not pushed to GitHub)
-│   └── processed/    ← Cleaned CSV files (not pushed to GitHub)
-│
-├── notebooks/
-│   ├── 01_data_loading.ipynb
-│   ├── 02_exploratory_data_analysis.ipynb
-│   ├── 03_data_cleaning.ipynb
-│   ├── 04_feature_engineering.ipynb
-│   └── 05_modeling.ipynb
-│
-├── models/
-│   ├── logistic_regression_model.pkl
-│   └── scaler.pkl
-│
-├── app/
-│   └── app.py              ← Streamlit web application
-│
-├── reports/
-│   ├── diabetes_distribution.png
-│   ├── feature_correlation.png
-│   └── confusion_matrices.png
-│
-├── requirements.txt
-└── README.md
----
+
 
 ## 🧠 Key Learnings
 
